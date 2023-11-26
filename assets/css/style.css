@@ -6,6 +6,28 @@ body {
 
 /*------- header ------*/
 
+.wrapper {
+  display: flex;
+  align-items: center; /* Alignez les éléments verticalement au centre si nécessaire */
+  margin-right: 392px;
+  margin-left: 392px;
+  justify-content: space-between;
+}
+
+header nav {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 10px; /* Ajustez la marge entre l'image et le texte selon vos besoins */
+}
+
+header p {
+  background-color: black;
+  height: 25px;
+  border-radius: 10%;
+  color: white;
+  text-align: center;
+}
+
 /*------- header ------*/
 
 /* ------main------ */
