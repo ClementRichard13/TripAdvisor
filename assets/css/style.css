@@ -23,16 +23,41 @@ header nav {
 header p {
   background-color: black;
   height: 25px;
-  border-radius: 10%;
-  color: white;
+  margin: 0 auto;
   text-align: center;
+  border-radius: 20px;
+  color: white;
+  padding: 17px 20px;
+}
+header nav i {
+  flex: 1;
 }
 
 /*------- header ------*/
 
 /* ------main------ */
 
+.top-main {
+  display: flex;
+  align-items: center;
+  padding-top: 32;
+  padding-bottom: 24;
+  margin-right: 392px;
+  margin-left: 392px;
+  height: 120px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
 h1 {
   font-size: 54px;
+  font-stretch: 80px;
+}
+h1 > span {
+  color: #ff5d5d;
 }
 /* ------main------ */
