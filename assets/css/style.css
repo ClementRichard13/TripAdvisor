@@ -60,4 +60,40 @@ h1 {
 h1 > span {
   color: #ff5d5d;
 }
+
+.flex-nav {
+  margin-right: 392px;
+  margin-left: 392px;
+  display: flex;
+  border: 3px solid red;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.flex-nav span {
+  border: 2px solid black;
+  height: 66px;
+  border-radius: 15px;
+  width: 179px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.pictures {
+  display: flex;
+  margin-right: 392px;
+  margin-left: 392px;
+  flex: 1;
+}
+.pictures p:nth-of-type(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Aligner les éléments au centre horizontalement */
+}
+
+.pictures p:nth-of-type(2) img {
+  flex: 1; /* Faites en sorte que chaque image ait une part égale de l'espace disponible */
+  width: 100%; /* Assurez-vous que chaque image occupe la largeur complète */
+  height: auto; /* Ajustez la hauteur automatiquement en fonction de la largeur pour maintenir le ratio d'aspect */
+}
+
 /* ------main------ */
