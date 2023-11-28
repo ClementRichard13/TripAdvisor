@@ -65,7 +65,7 @@ h1 > span {
   margin-right: 392px;
   margin-left: 392px;
   display: flex;
-  border: 3px solid red;
+  /* border: 3px solid red; */
   justify-content: space-between;
   flex: 1;
 }
