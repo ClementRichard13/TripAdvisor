@@ -164,6 +164,9 @@ main nav div {
   margin-top: 80px;
   margin-bottom: 24px;
 }
+.section2 {
+  display: flex;
+}
 
 .lesImmanquables {
   display: flex;
@@ -183,4 +186,38 @@ main nav div {
   margin-top: 40px;
   font-size: 20px;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#list-1 {
+  width: 840px;
+  height: 200px;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  border-radius: 10px;
+}
+
+#list-1 li {
+  position: relative; /* Position relative pour le positionnement absolu de l'icône */
+  height: auto;
+  width: 270px;
+  border-radius: 10px;
+  flex-shrink: 0;
+  margin-right: 5px;
+  overflow: hidden;
+}
+
+#list-1 img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.fa-circle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px; /* Ajoutez une marge pour l'espace entre l'icône et le coin */
+  color: #ffffff; /* Couleur de l'icône (à ajuster selon vos besoins) */
+  font-size: 60px;
 }
