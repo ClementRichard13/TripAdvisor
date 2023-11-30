@@ -128,4 +128,32 @@ menu div {
   border-radius: 0px 0px 10px 0px;
 }
 
-/* commentaire pq problème */
+main nav {
+  display: flex;
+  font-size: 12px;
+  margin-top: 27px;
+  color: #333333;
+}
+main nav div {
+  margin-right: 6px;
+}
+.description {
+  display: flex;
+  max-width: 575px;
+  margin-top: 50px;
+}
+.columnLeft {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto; /* Centre le contenu si la largeur est inférieure à 100% */
+}
+.columnLeft :first-child {
+  font-size: 28px;
+}
+.columnLeft :nth-child(2) {
+  font-size: 20px;
+}
+
+.columnLeft span {
+  margin-bottom: 10px; /* Ajoute un espace entre les spans */
+}
