@@ -152,8 +152,35 @@ main nav div {
 }
 .columnLeft :nth-child(2) {
   font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .columnLeft span {
   margin-bottom: 10px; /* Ajoute un espace entre les spans */
+}
+
+.title {
+  font-size: 28px;
+  margin-top: 80px;
+  margin-bottom: 24px;
+}
+
+.lesImmanquables {
+  display: flex;
+}
+.seDivertir {
+  display: flex;
+  flex-direction: column;
+  max-width: 272px;
+  max-height: 272px;
+}
+.seDivertir :first-child {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.seDivertir:nth-child(2) {
+  margin-top: 40px;
+  font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
