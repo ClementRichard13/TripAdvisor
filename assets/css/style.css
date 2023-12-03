@@ -267,3 +267,29 @@ menu div {
   right: 5px;
   border-radius: 50%;
 }
+
+/* Point de rupture à 1184px */
+@media screen and (max-width: 1184px) {
+  .wrapper {
+    max-width: 95%;
+  }
+
+  /* Ajoutez d'autres styles spécifiques à cet intervalle si nécessaire */
+}
+/* Point de rupture à 1024px */
+@media screen and (max-width: 1024px) {
+  .wrapper {
+    max-width: 95%px;
+  }
+
+  /* Ajoutez d'autres styles spécifiques à cet intervalle si nécessaire */
+}
+
+/* Point de rupture à 768px */
+@media screen and (max-width: 768px) {
+  .wrapper {
+    max-width: 100%;
+  }
+
+  /* Ajoutez d'autres styles spécifiques à cet intervalle si nécessaire */
+}
