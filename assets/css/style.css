@@ -267,29 +267,112 @@ menu div {
   right: 5px;
   border-radius: 50%;
 }
+/* RESPONSIV */
+
+.visible-s {
+  display: none;
+}
+
+.visible-xxs {
+  display: none;
+}
 
 /* Point de rupture à 1184px */
-@media screen and (max-width: 1184px) {
+@media (max-width: 1184px) {
   .wrapper {
     max-width: 95%;
   }
 
-  /* Ajoutez d'autres styles spécifiques à cet intervalle si nécessaire */
-}
-/* Point de rupture à 1024px */
-@media screen and (max-width: 1024px) {
-  .wrapper {
-    max-width: 95%px;
+  .visible-s {
+    display: flex;
   }
 
-  /* Ajoutez d'autres styles spécifiques à cet intervalle si nécessaire */
+  menu {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  menu div {
+    width: calc(25% - 10px);
+  }
+
+  .main-images {
+    height: 370px;
+  }
+
+  .column2 {
+    width: 400px;
+  }
+}
+/* Point de rupture à 1024px */
+@media (max-width: 1024px) {
+  .hidden-xs {
+    display: none;
+  }
+
+  .main-images {
+    height: 275px;
+  }
+
+  .column2 {
+    width: 320px;
+  }
+
+  .geo-section {
+    height: 100%;
+  }
+
+  .geo-section > div:first-child {
+    width: 100%;
+  }
+
+  .map {
+    display: none;
+  }
+
+  .carroussel-div > div {
+    width: 40%;
+  }
 }
 
 /* Point de rupture à 768px */
-@media screen and (max-width: 768px) {
-  .wrapper {
-    max-width: 100%;
+@media (max-width: 768px) {
+  .hidden-xss {
+    display: none;
   }
 
-  /* Ajoutez d'autres styles spécifiques à cet intervalle si nécessaire */
+  .visible-xxs {
+    display: inline;
+  }
+
+  menu {
+    flex-wrap: nowrap;
+    overflow: scroll;
+  }
+
+  menu div {
+    width: auto;
+    flex-shrink: 0;
+    gap: 10px;
+    height: auto;
+  }
+
+  .column1 > img {
+    border-radius: 10px;
+  }
+
+  .column2 {
+    display: none;
+  }
+
+  .carroussel-section {
+    flex-direction: column;
+    height: 800px;
+  }
+  .carroussel-section > div:first-child {
+    height: 40%;
+  }
+  .carroussel-div > div {
+    width: 75%;
+  }
 }
